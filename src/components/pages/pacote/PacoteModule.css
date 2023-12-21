@@ -1,0 +1,349 @@
+/* CORES DO MODO DALTONISMO */
+.container-pacote .pacotes .pacote .btn.DPTT {
+  background-color: #0000FF;
+  border: 1px solid #0000FF;
+}
+
+.container-pacote .pacotes .pacote .btn.DPTT:hover {
+  color: #0000FF;
+  border: 1px solid #0000FF;
+}
+/*  */
+.container-pacote .pacotes .pacote .btn.M {
+  background-color: #00BFFF;
+  border: 1px solid #00BFFF;
+}
+
+.container-pacote .pacotes .pacote .btn.M:hover {
+  color: #00BFFF;
+  border: 1px solid #00BFFF;
+}
+/*  */
+.container-pacote .pacotes .pacote .btn.PD {
+  background-color: #FF69B4;
+  border: 1px solid #FF69B4;
+}
+
+.container-pacote .pacotes .pacote .btn.PD:hover {
+  color: #FF69B4;
+  border: 1px solid #FF69B4;
+}
+/*  */
+.container-pacote .pacotes .pacote .btn.A {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.container-pacote .pacotes .pacote .btn.A:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.container-pacote.A {
+  background: url(../../../img/pacote/fundo-pacote-PB.svg) no-repeat top center;
+  background-size: cover;
+}
+
+/* COMEÇO DO CSS DA PÁGINA */
+.container-pacote {
+  height: 100vh;
+  background: url(../../../img/pacote/fundo-pacote.svg) no-repeat top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-pacote .titulo-pacotes {
+  font-size: 9rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.container-pacote .pacotes {
+  display: flex;
+  align-items: center;
+}
+
+.container-pacote .pacotes .pacote {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.7rem;
+  padding: 3.5rem 3rem;
+  position: relative;
+  backdrop-filter: blur(30px);
+}
+
+.container-pacote .pacotes .pacote .titulo-pacote {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.7rem;
+  color: #fff;
+}
+
+.container-pacote .pacotes .pacote .orcamento {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.container-pacote .pacotes .pacote .planejamento {
+  font-weight: bold;
+}
+
+.container-pacote .pacotes .pacote .orcamento,
+.container-pacote .pacotes .pacote .planejamento {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.container-pacote .pacotes .pacote .lista-pacote {
+  height: 15.2rem;
+  overflow-y: hidden;
+}
+
+.container-pacote .pacotes .pacote .lista-pacote li {
+  font-size: 2.2rem;
+  color: #000;
+}
+
+.container-pacote .pacotes .pacote .lista-pacote li .icone {
+  color: #fff;
+  margin-right: .5rem;
+}
+
+.container-pacote .pacotes .pacote .ver-mais {
+  position: absolute;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  bottom: 9.2rem;
+  right: 3rem;
+  cursor: pointer;
+}
+
+.container-pacote .pacotes .pacote .btn {
+  padding: 1.2rem 5.1rem;
+  background-color: #658955;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 300;
+  border-radius: 2rem;
+  transition: .3s ease-in-out;
+  border: 1px solid #658955;
+}
+
+.container-pacote .pacotes .pacote .btn:hover {
+  background-color: #fff;
+  color: #658955;
+}
+
+@media (min-width: 1920px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 7rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-size: 3.5rem;
+  }
+
+  .container-pacote .pacotes .pacote p {
+    font-size: 3rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 19rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 2.8rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 2.5rem;
+    bottom: 12.2rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    margin-top: 10rem;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-size: 3rem;
+  }
+
+  .container-pacote .pacotes .pacote p {
+    font-size: 2.5rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 2.4rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 15.9rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 2.2rem;
+    bottom: 10.5rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 6rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-size: 3rem;
+  }
+
+  .container-pacote .pacotes .pacote p {
+    font-size: 2.5rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 2.4rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 15.9rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 2.2rem;
+    bottom: 10.6rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 5rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-size: 2.7rem;
+  }
+
+  .container-pacote .pacotes .pacote p {
+    font-size: 2.2rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 2.1rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 14.3rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 2rem;
+    bottom: 10rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    margin-top: 5rem;
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 4rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-size: 2.7rem;
+  }
+
+  .container-pacote .pacotes .pacote p {
+    font-size: 2.2rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 2.1rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 14.3rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 1.9rem;
+    bottom: 10rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    margin-top: 5rem;
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 480px) {
+  .container-pacote .titulo-pacotes {
+    font-size: 2.7rem;
+  }
+
+  .container-pacote .pacotes .pacote .titulo-pacote {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+  }
+
+  .container-pacote .pacotes .pacote .orcamento {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+
+  .container-pacote .pacotes .pacote .planejamento {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote {
+    height: 13rem;
+  }
+
+  .container-pacote .pacotes .pacote .lista-pacote li {
+    font-size: 1.7rem;
+  }
+
+  .container-pacote .pacotes .pacote .ver-mais {
+    font-size: 2rem;
+    bottom: 10rem;
+    right: 3rem;
+  }
+
+  .container-pacote .pacotes .pacote .btn {
+    padding: 1.2rem 4.1rem;
+    font-size: 1.6rem;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-height: 600px) {
+  .container-pacote {
+    height: 120vh;
+  }
+}

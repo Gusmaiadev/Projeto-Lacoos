@@ -1,0 +1,170 @@
+/* CORES MODO DALTONISMO */
+.home .container-home .botao-home.DPTT{
+  background-color: #FFA500;
+}
+
+.home .container-home .textos-central .titulo-principal .css-titulo.DPTT {
+  color: #FFA500;
+}
+
+.home .container-home .botao-home.PD{
+  background-color: #FF69B4;
+}
+
+.home .container-home .textos-central .titulo-principal .css-titulo.PD {
+  color: #FF69B4;
+}
+
+.home .container-home .botao-home.M{
+  background-color: #00BFFF;
+}
+
+.home .container-home .textos-central .titulo-principal .css-titulo.M {
+  color: #00BFFF;
+}
+
+.home .container-home .botao-home.A{
+  background-color: #fff;
+  color: #000;
+}
+
+.home .container-home .textos-central .titulo-principal .css-titulo.A {
+  color: #fff;
+}
+
+.home.A {
+  background: url(../../../img/home/fundo-home-preto-branco.svg) no-repeat top center;
+  background-size: cover;
+}
+
+/* SECTION HOME */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background: url(../../../img/home/fundo-home.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.home .logo-laçoos {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  width: 10rem;
+}
+
+.home .container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  gap: 2.6rem;
+  margin-left: 8.5rem;
+}
+
+.home .container-home .botao-home {
+  background-color: #c3b107;
+  padding: 1.7rem 3.5rem;
+  width: fit-content;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.home .container-home .textos-central {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(8px);
+  padding: 3.8rem 0.9rem 0.9rem 3.8rem;
+  border-radius: 2.3rem;
+}
+
+.home .container-home .textos-central .titulo-principal,
+.home .container-home .textos-central .titulo-principal .css-titulo {
+  font-size: 7.5rem;
+  font-weight: 500;
+  width: 60rem;
+  color: #fff;
+  line-height: 90.2%;
+}
+
+.home .container-home .textos-central .titulo-principal .css-titulo {
+  color: #c3b107;
+}
+
+.home .container-home .textos-central .p-titulo {
+  font-size: 2.7rem;
+  font-weight: 500;
+  width: 46rem;
+  margin-top: 1rem;
+  line-height: 139.7%;
+  color: #fff;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .home .logo-laçoos {
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    width: 8rem;
+  }
+
+  .home .container-home {
+    gap: 2.6rem;
+    margin: 5rem;
+  }
+
+  .home .container-home .textos-central {
+    padding: 2rem;
+  }
+
+  .home .container-home .textos-central .titulo-principal,
+  .home .container-home .textos-central .titulo-principal .css-titulo {
+    font-size: 4rem;
+    width: auto;
+    line-height: 90.2%;
+  }
+
+  .home .container-home .textos-central .p-titulo {
+    font-size: 2rem;
+    width: 35rem;
+  }
+}
+@media (max-width: 480px) {
+  .home .logo-laçoos {
+    position: absolute;
+    top: 1.5rem;
+    left: 3rem;
+    width: 8rem;
+  }
+
+  .home .container-home {
+    gap: 2.6rem;
+    margin: 1rem;
+  }
+
+  .home .container-home .textos-central {
+    padding: 2rem;
+  }
+
+  .home .container-home .textos-central .titulo-principal,
+  .home .container-home .textos-central .titulo-principal .css-titulo {
+    font-size: 4rem;
+    width: auto;
+    line-height: 90.2%;
+  }
+
+  .home .container-home .textos-central .p-titulo {
+    font-size: 1.7rem;
+    width: 20rem;
+  }
+}

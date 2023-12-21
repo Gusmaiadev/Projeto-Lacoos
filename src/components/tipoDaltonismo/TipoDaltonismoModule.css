@@ -1,0 +1,195 @@
+/* CORES DO MODO DALTONISMO */
+.cores-daltonismo.DPTT,
+.cores-daltonismo.M,
+.cores-daltonismo.PD {
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+/*  */
+.cores-daltonismo.A {
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/* COMEÇANDO O CSS DA PÁGINA */
+.tipos-daltonismo .tipo-daltonismo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: left;
+    width: 20rem;
+    font-size: 1.8rem;
+  }
+
+.tipo-daltonismo .cores-alternador .cores-daltonismo {
+  border: 1px solid #658955;
+  border-radius: 50%;
+}
+
+.input-tipoDaltonismo {
+  appearance: none;
+  position: relative;
+  width: 6rem;
+  height: 3.3rem;
+  border-radius: 5rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.input-tipoDaltonismo::before {
+  content: "";
+  position: absolute;
+  background-color: #646363;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  top: 0.4rem;
+  left: 0.4rem;
+  transition: left 0.3s;
+}
+
+.input-tipoDaltonismo:checked::before {
+  left: 3.1rem;
+}
+
+.caixa
+  .conteudo-caixa
+  .modo-daltonismo-caixa
+  .escolhas-modo-daltonismo
+  .tipos-daltonismo
+  .tipo-daltonismo
+  .cores-alternador
+  .input-tipoDaltonismo {
+  position: relative;
+  width: 6rem;
+  height: 3.3rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.home
+  .caixa
+  .conteudo-caixa
+  .modo-daltonismo-caixa
+  .escolhas-modo-daltonismo
+  .tipos-daltonismo
+  .tipo-daltonismo
+  .cores-alternador
+  .input-tipoDaltonismo {
+  position: absolute;
+  background-color: #646363;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  top: 0.4rem;
+  right: 0.4rem;
+}
+
+@media (min-width: 1920px) {
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .tipos-daltonismo .tipo-daltonismo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    gap: 1rem;
+  }
+
+  .tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: left;
+    width: 20rem;
+    font-size: 1.8rem;
+  }
+
+  .tipo-daltonismo .cores-daltonismo {
+    width: 8rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tipos-daltonismo .tipo-daltonismo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40rem;
+    gap: 1rem;
+  }
+
+  .tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: left;
+    width: 20rem;
+    font-size: 1.8rem;
+  }
+
+  .tipo-daltonismo .cores-daltonismo {
+    width: 8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .tipos-daltonismo .tipo-daltonismo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: left;
+    width: 20rem;
+    font-size: 1.8rem;
+  }
+
+  .tipo-daltonismo .cores-daltonismo {
+    width: 8rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .tipos-daltonismo .tipo-daltonismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .tipo-daltonismo .nome-daltonismo {
+    display: none;
+  }
+
+  .tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: center;
+    width: 20rem;
+    font-size: 1.8rem;
+  }
+
+  .tipo-daltonismo .cores-daltonismo {
+    width: 7rem;
+  }
+}
+@media (max-width: 480px) {
+  .tipos-daltonismo .tipo-daltonismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .tipo-daltonismo .nome-daltonismo {
+    display: none;
+  }
+
+  .tipo-daltonismo .nome-daltonismo .tipos {
+    text-align: center;
+    width: 13rem;
+    font-size: 1.5rem;
+  }
+
+  .tipo-daltonismo .cores-daltonismo {
+    width: 6rem;
+  }
+}

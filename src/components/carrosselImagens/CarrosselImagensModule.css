@@ -1,0 +1,164 @@
+/* CORES MODO DALTONISMO */
+.btn-arrow.DPTT {
+  background-color: #0000FF;
+  color: #FFA500;
+}
+
+.btn-arrow.DPTT:hover {
+  background-color: #FFA500;
+}
+
+.btn-arrow.PD {
+  background-color: #008000;
+  color: #FF69B4;
+}
+
+.btn-arrow.PD:hover {
+  background-color: #FF69B4;
+  color: #008000;
+}
+
+.btn-arrow.M {
+  background-color: #00BFFF;
+  color: #808080;
+}
+
+.btn-arrow.M:hover {
+  background-color: #808080;
+  color: #00BFFF;
+}
+
+.btn-arrow.A {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-arrow.A:hover {
+  background-color: #808080;
+  color: #000;
+}
+
+/* COMEÇO DO CSS DO SITE */
+.container-carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 4rem 0;
+}
+
+.carrossel-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  overflow-x: auto;
+}
+
+.carrossel-image::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-item {
+  width: 50rem;
+  cursor: pointer;
+}
+
+.btn-arrow {
+  display: flex;
+  padding: 2rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #658955;
+  color: #c3b107;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-arrow:hover {
+  background-color: #c3b107;
+  color: #fff;
+}
+
+.arrows {
+  font-size: 4rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-carrossel {
+    gap: 3rem;
+  }
+
+  .carrossel-image {
+    width: 40rem;
+  }
+
+  .slide-item {
+    width: 40rem;
+  }
+
+  .btn-arrow {
+    padding: 1rem;
+  }
+
+  .btn-arrow:hover {
+    background-color: #c3b107;
+    color: #fff;
+  }
+
+  .arrows {
+    font-size: 4.2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-carrossel {
+    gap: 1rem;
+  }
+
+  .carrossel-image {
+    width: 30rem;
+  }
+
+  .slide-item {
+    width: 30rem;
+  }
+
+  .btn-arrow {
+    padding: 1rem;
+  }
+
+  .btn-arrow:hover {
+    background-color: #c3b107;
+    color: #fff;
+  }
+
+  .arrows {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .container-carrossel {
+    gap: 1rem;
+  }
+
+  .carrossel-image {
+    width: 22rem;
+  }
+
+  .slide-item {
+    width: 22rem;
+  }
+
+  .btn-arrow {
+    padding: 0.7rem;
+  }
+
+  .btn-arrow:hover {
+    background-color: #c3b107;
+    color: #fff;
+  }
+
+  .arrows {
+    font-size: 2.2rem;
+  }
+}

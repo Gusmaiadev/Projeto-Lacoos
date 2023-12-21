@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.container-acessibilidade .icone-acessibilidade {
+  position: fixed;
+  right: 3.2rem;
+  bottom: 10rem;
+  width: 5.6rem;
+  height: 5.6rem;
+  z-index: 10;
+}
+
+.icone-acessibilidade svg {
+  font-size: 5.6rem;
+  color: #c3b107;
+  background-color: #272514;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icone-acessibilidade svg:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .container-acessibilidade .icone-acessibilidade{
+        right: 3.2rem;
+    } 
+}
+
+@media (max-height: 700px) {
+    .container-acessibilidade .icone-acessibilidade{
+        right: 9.6%;
+    }
+}
+

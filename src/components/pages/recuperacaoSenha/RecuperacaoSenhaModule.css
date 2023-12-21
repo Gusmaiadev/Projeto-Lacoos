@@ -1,0 +1,389 @@
+/* CORES DO MODO DALTONISMO */
+.lado-d .box .textos .h1-textos.DPTT,
+.lado-d .box .valores .valor-label.DPTT,
+.lado-d .box .voltar-recuperacao-senha.DPTT {
+  color: #0000FF;
+}
+
+.lado-d .box .valores .input-valor.DPTT {
+  border: 1px solid #0000FF;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha.DPTT {
+  background-color: #0000FF;
+  border: 1px solid #0000FF;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha:hover.DPTT {
+  background-color: #fff;
+  border: 1px solid #0000FF;
+  color: #0000FF;
+}
+/*  */
+.lado-d .box .textos .h1-textos.M,
+.lado-d .box .valores .valor-label.M,
+.lado-d .box .voltar-recuperacao-senha.M {
+  color: #00008B;
+}
+
+.lado-d .box .valores .input-valor.M {
+  border: 1px solid #00008B;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha.M {
+  background-color: #00008B;
+  border: 1px solid #00008B;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha:hover.M {
+  background-color: #fff;
+  border: 1px solid #00008B;
+  color: #00008B;
+}
+/*  */
+.lado-d .box .textos .h1-textos.PD,
+.lado-d .box .valores .valor-label.PD,
+.lado-d .box .voltar-recuperacao-senha.PD {
+  color: #FF69B4;
+}
+
+.lado-d .box .valores .input-valor.PD {
+  border: 1px solid #000;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha.PD {
+  background-color: #FF69B4;
+  border: 1px solid #FF69B4;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha:hover.PD {
+  background-color: #fff;
+  border: 1px solid #FF69B4;
+  color: #FF69B4;
+}
+/*  */
+.lado-d .box .textos .h1-textos.A,
+.lado-d .box .valores .valor-label.A,
+.lado-d .box .voltar-recuperacao-senha.A {
+  color: #000;
+}
+
+.lado-d .box .valores .input-valor.A {
+  border: 1px solid #000;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha.A {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha:hover.A {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.container-recuperacao-senha.A {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../img/recuperacaoSenha/fundo-recuperacao-senha-PB.svg) no-repeat top
+  center;
+  background-size: cover;
+  position: relative;
+}
+
+/* COMEÇO DO CSS DA PÁGINA */
+.container-recuperacao-senha {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../../img/recuperacaoSenha/background.svg) no-repeat top
+  center;
+  background-size: cover;
+  position: relative;
+}
+
+.lado-e {
+  position: absolute;
+  top: 3%;
+  left: 6%;
+}
+
+.lado-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lado-d .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem 11.4rem;
+  border-radius: 2rem;
+}
+
+.lado-d .box .textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lado-d .box .textos .h1-textos {
+  color: #658955;
+  font-size: 4.9rem;
+  font-weight: bold;
+  margin-bottom: 5.6rem;
+}
+
+.lado-d .box .textos .p-textos {
+  font-size: 2rem;
+  font-weight: 400;
+  width: 74rem;
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+.lado-d .box .form-recup-senh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lado-d .box .valores {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-bottom: 7.2rem;
+}
+
+.lado-d .box .valores .valor-label {
+  color: #658955;
+  font-weight: 400;
+  font-size: 2.1rem;
+}
+
+.lado-d .box .valores .input-valor {
+  border: 1px solid #658955;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 48rem;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha {
+  background-color: #658955;
+  color: #fff;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 1.4rem 7.1rem;
+  border: 2px solid #658955;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.lado-d .box .button-recuperacao-senha .btn-recup-senha:hover {
+  background-color: #fff;
+  color: #658955;
+}
+
+.lado-d .box .voltar-recuperacao-senha {
+  position: absolute;
+  color: #658955;
+  font-size: 1.9rem;
+  font-weight: 400;
+  bottom: 4%;
+  left: 4%;
+}
+
+.lado-d .box a.voltar-recuperacao-senha:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1920px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .lado-e {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .lado-e {
+    position: absolute;
+    width: 10rem;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .lado-e {
+    position: absolute;
+    width: 10rem;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lado-d .box {
+    padding: 1.8rem 3rem;
+  }
+
+  .lado-d .box .textos .h1-textos {
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .lado-d .box .textos .p-textos {
+    width: 65rem;
+    font-size: 2.3rem;
+  }
+
+  .lado-d .box .valores {
+    gap: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .lado-d .box .valores .input-valor {
+    width: 40rem;
+    margin-bottom: 0rem;
+  }
+
+  .lado-d .box .button-recuperacao-senha .btn-recup-senha {
+    font-size: 2.5rem;
+    padding: 1.4rem 4rem;
+    margin-bottom: 0rem;
+  }
+
+  .lado-d .box .voltar-recuperacao-senha {
+    font-size: 2.2rem;
+    bottom: 4%;
+    left: 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .lado-e {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lado-d .box {
+    padding: 1.8rem 3rem;
+  }
+
+  .lado-d .box .textos .h1-textos {
+    font-size: 4.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .lado-d .box .textos .p-textos {
+    width: 45rem;
+  }
+
+  .lado-d .box .valores {
+    gap: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .lado-d .box .valores .input-valor {
+    width: 33rem;
+    margin-bottom: 0rem;
+  }
+
+  .lado-d .box .button-recuperacao-senha .btn-recup-senha {
+    font-size: 2rem;
+    padding: 1.4rem 4rem;
+    margin-bottom: 0rem;
+  }
+
+  .lado-d .box .voltar-recuperacao-senha {
+    font-size: 2.2rem;
+    bottom: 4%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .lado-e {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .lado-d .box {
+    padding: 1.8rem;
+  }
+
+  .lado-d .box .textos .h1-textos {
+    color: #658955;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+
+  .lado-d .box .textos .p-textos {
+    width: 25rem;
+  }
+
+  .lado-d .box .valores {
+    flex-direction: column;
+    gap: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .lado-d .box .valores .input-valor {
+    width: 24rem;
+  }
+
+  .lado-d .box .button-recuperacao-senha .btn-recup-senha {
+    font-size: 2rem;
+    padding: 1.4rem 3rem;
+    margin-bottom: 0rem;
+  }
+
+  .lado-d .box .voltar-recuperacao-senha {
+    position: absolute;
+    color: #658955;
+    font-size: 1.8rem;
+    font-weight: 400;
+    bottom: 4%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .lado-e {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+}
+
+@media (min-height: 600px) and (max-height: 700px) {
+  .lado-d .box .valores .input-valor {
+    margin-bottom: 1.3rem;
+  }
+}

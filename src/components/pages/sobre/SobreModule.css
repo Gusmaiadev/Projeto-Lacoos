@@ -1,0 +1,1382 @@
+/* COES DO MODO DALTONISMO */
+.conteudo-sobre .h1-conteudoSobre.DPTT,
+.sobre-parceiros .tituloParceiros.DPTT {
+  color: #0000FF;
+}
+
+.conteudo-sobre .hr-conteudoSobre.DPTT,
+.sobre-parceiros .hr-conteudoParceiros.DPTT,
+.sobre-cartaolacoos.DPTT,
+.button .btn-sobreNos.DPTT,
+.card.DPTT {
+  background-color: #FFA500;
+}
+
+.tituloBodas.DPTT {
+  color: #FFA500;
+}
+
+.sobre-integrantelacoos.DPTT {
+  background-image: url(../../../img/sobre/sobre-back-DPTT.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+/*  */
+.conteudo-sobre .h1-conteudoSobre.M,
+.sobre-parceiros .tituloParceiros.M {
+  color: #00008B;
+}
+
+.conteudo-sobre .hr-conteudoSobre.M,
+.sobre-parceiros .hr-conteudoParceiros.M,
+.sobre-cartaolacoos.M,
+.button .btn-sobreNos.M,
+.card.M {
+  background-color: #00BFFF;
+}
+
+.tituloBodas.M {
+  color: #00BFFF;
+}
+
+.sobre-integrantelacoos.M {
+  background-image: url(../../../img/sobre/sobre-back-M.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+/*  */
+.conteudo-sobre .h1-conteudoSobre.PD,
+.sobre-parceiros .tituloParceiros.PD {
+  color: #008000;
+}
+
+.conteudo-sobre .hr-conteudoSobre.PD,
+.sobre-parceiros .hr-conteudoParceiros.PD,
+.sobre-cartaolacoos.PD,
+.button .btn-sobreNos.PD,
+.card.PD {
+  background-color: #FF69B4;
+}
+
+.tituloBodas.PD {
+  color: #FF69B4;
+}
+
+.sobre-integrantelacoos.PD {
+  background-image: url(../../../img/sobre/sobre-back-PD.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+/*  */
+.conteudo-sobre .h1-conteudoSobre.A,
+.sobre-parceiros .tituloParceiros.A {
+  color: #000;
+}
+
+.conteudo-sobre .hr-conteudoSobre.A,
+.sobre-parceiros .hr-conteudoParceiros.A,
+.sobre-cartaolacoos.A,
+.button .btn-sobreNos.A,
+.card.A {
+  background-color: #000;
+}
+
+.tituloBodas.A {
+  color: #fff;
+}
+
+.sobre-integrantelacoos.A {
+  background-image: url(../../../img/sobre/sobre-back-A.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.sobre-home.A {
+  background: url(../../../img/sobre/fundo-sobre-PB.svg) no-repeat;
+  background-size: cover;
+}
+
+.sobre-bodas.A {
+  background: url(../../../img/sobre/fundo-bodas-PB.svg) no-repeat;
+  background-size: cover;
+}
+
+.sobre-footerlacoos.A {
+  background: url(../../../img/sobre/fundo-rodape-PB.svg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* COMEÇO DO CSS DA PÁGINA */
+.container {
+  position: relative;
+}
+
+.sobre-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url(../../../img/sobre/header.png) no-repeat;
+  background-size: cover;
+}
+
+.sobre-home .conteudo-logo {
+  width: 50rem;
+}
+
+.conteudo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo .p-sobre {
+  font-weight: 500;
+  font-size: 3.6rem;
+  color: #ffffff;
+}
+
+.img-detalhes {
+  position: absolute;
+  right: 0;
+  bottom: -22rem;
+}
+
+.detalhes {
+  width: 320px;
+}
+
+/* SECTION SOBRE LAÇOOS */
+
+.sobre-lacoos {
+  width: 100%;
+  height: 100vh;
+}
+
+.sobre-lacoos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.conteudo-sobre {
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-sobre .h1-conteudoSobre {
+  color: #658955;
+  font-size: 85px;
+  margin-right: 5rem;
+}
+
+.conteudo-sobre .hr-conteudoSobre {
+  background-color: #c3b107;
+  width: 5px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.conteudo-sobre .p-conteudoSobre {
+  width: 523px;
+  margin-left: 5rem;
+  font-size: 26px;
+}
+
+/* SECTION SOBRE BODAS */
+
+.sobre-bodas {
+  position: relative;
+  width: auto;
+  height: 100vh;
+  background-color: #f2f2ef;
+  background: url(../../../img/sobre/bodas.png) no-repeat;
+  background-size: cover;
+}
+
+.conteudo-bodas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 8.85rem;
+  left: 3.4rem;
+  gap: 1rem;
+}
+
+.tituloBodas {
+  width: 50.1rem;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 9.2rem;
+  color: #c3b107;
+}
+
+.descBodas {
+  width: 52.3rem;
+  height: 25.2rem;
+  color: #fff;
+  font-size: 2.6rem;
+}
+
+/* SECTION SOBRE PARCEIROS */
+.sobre-bodas-parceiros {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-parceiros {
+  display: flex;
+  align-items: center;
+}
+
+.sobre-parceiros .tituloParceiros {
+  width: 47.8rem;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 10.4rem;
+  color: #658955;
+  margin-right: 10rem;
+}
+
+.sobre-parceiros .hr-conteudoParceiros {
+  background-color: #c3b107;
+  width: 5px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.sobre-parceiros .imgParceiros {
+  width: 23.8rem;
+  margin-left: 5rem;
+}
+
+/* SECTION SOBRE CARTAO LAÇOOS */
+
+.sobre-cartaolacoos {
+  width: 100%;
+  height: 85vh;
+  background-color: #c3b107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-img {
+  width: 80%;
+}
+
+/* SECTION SOBRE FONTS LAÇOOS */
+
+.sobre-fontslacoos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6.1rem 0;
+}
+
+.conteudo-fonts {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.conteudo-fonts .buttons {
+  display: flex;
+  align-items: center;
+  gap: 10.7rem;
+}
+
+.button .btn-sobreNos {
+  padding: 6.4rem 12rem;
+  background-color: #c9b920;
+  color: #ffffff;
+  border-radius: 26px;
+  font-size: 44px;
+  border: none;
+}
+
+.btn .title {
+  font-size: 51px;
+}
+
+.btn .p {
+  font-size: 36px;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+/* SECTION SOBRE IMAGES LAÇOOS */
+
+.sobre-imageslacoos {
+  width: 100%;
+}
+
+.sobre-imageslacoos .images {
+  display: flex;
+  justify-content: center;
+}
+
+.images .imagesLacoos-sobre {
+  width: 100%;
+}
+
+/* SECTION SOBRE ID VISUAL LAÇOOS */
+
+.sobre-idvisuallacoos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rem;
+}
+
+.conteudo-id {
+  display: flex;
+  justify-content: center;
+}
+
+.cores {
+  display: flex;
+  justify-content: center;
+}
+
+.conteudoicons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icons-msg {
+  width: 425px;
+}
+
+/* SECTION INTEGRANTE LAÇOOS */
+
+.sobre-integrantelacoos {
+  width: 100%;
+  text-align: center;
+  background-image: url(../../../img/sobre/sobre-back.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerIntegrantes {
+  display: flex;
+  margin: 5rem;
+}
+
+.conteudointegrantes {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+  margin: 0 auto;
+  width: 80vw;
+  color: #fff;
+}
+
+.card {
+  padding: 1rem 1.7rem;
+  border-radius: 17px;
+  background-color: #c3b107;
+  margin: 7.5px;
+}
+
+.card img {
+  margin-top: 0.5rem;
+  width: 10rem;
+}
+
+.caixaGarrafinha {
+  width: 47rem;
+  height: auto;
+  margin-top: 5rem;
+}
+
+/* SECTION SOBRE FOOTER LAÇOOS */
+
+.sobre-footerlacoos {
+  width: 100%;
+  height: 75vh;
+  background: url(../../../img/sobre/footerbc.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  font-family: "Poppins";
+  color: #ffffff;
+  position: relative;
+}
+
+.redesocial {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 34px;
+  left: 34px;
+  gap: 1rem;
+}
+
+.cardsocial {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.imageQRCode {
+  width: 20rem;
+}
+
+@media (min-width: 1920px) {
+  /* SECTION SOBRE BODAS */
+
+  .sobre-bodas {
+    background: url(../../../img/sobre/bodas.png) no-repeat top center;
+    background-size: cover;
+  }
+
+  .conteudo-bodas {
+    top: 7rem;
+    left: 3.4rem;
+    gap: 1rem;
+  }
+
+  .tituloBodas {
+    width: 70rem;
+    font-size: 12rem;
+  }
+
+  .descBodas {
+    width: 100rem;
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  /* SECTION IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .images .imagesLacoos-sobre {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .conteudo-sobre .hr-conteudoSobre {
+    height: 28rem;
+  }
+
+  .conteudo-sobre .p-conteudoSobre {
+    width: 40rem;
+    font-size: 2.4rem;
+  }
+
+  /* SECTION IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .images .imagesLacoos-sobre {
+    width: 50%;
+  }
+
+  /* SECTION INTEGRANTE LAÇOOS */
+
+  .sobre-integrantelacoos {
+    position: relative;
+  }
+
+  .containerIntegrantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    position: relative;
+  }
+
+  .conteudointegrantes {
+    display: flex;
+    width: 90rem;
+    grid-gap: 20px;
+    color: #fff;
+  }
+
+  .card .imageIntegrante {
+    margin-top: 0.5rem;
+    width: 13rem;
+  }
+
+  .caixaGarrafinha {
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+    width: 45rem;
+    margin-top: 0;
+  }
+
+  /* SECTION SOBRE BODAS PARCEIROS */
+  .sobre-parceiros {
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .sobre-parceiros .tituloParceiros {
+    width: 35rem;
+    font-size: 7rem;
+    margin-right: 1rem;
+  }
+
+  .sobre-parceiros .imgParceiros {
+    width: 18rem;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* SOBRE LAÇOOS */
+
+  .conteudo-sobre .hr-conteudoSobre {
+    height: 24rem;
+  }
+
+  .conteudo-sobre .p-conteudoSobre {
+    width: 30rem;
+    font-size: 2.2rem;
+  }
+
+  /* SECTION SOBRE FONTS LAÇOOS */
+  .conteudo-fonts {
+    gap: 5rem;
+  }
+
+  .conteudo-fonts .buttons {
+    gap: 3rem;
+  }
+
+  .button .btn-sobreNos {
+    padding: 4rem 7rem;
+    font-size: 6rem;
+    border: none;
+  }
+
+  .btn .title {
+    font-size: 6rem;
+  }
+
+  .btn .p {
+    font-size: 4rem;
+  }
+
+  /* SECTION IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .images .imagesLacoos-sobre {
+    width: 50%;
+  }
+
+  /* SECTION SOBRE ID VISUAL LAÇOOS */
+  .sobre-idvisuallacoos {
+    height: 50rem;
+  }
+
+  .cores {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cores .imagesCores {
+    width: 24rem;
+  }
+
+  .conteudoicons .imagesIcons {
+    width: 11rem;
+  }
+
+  .imagesLacoos {
+    width: 30rem;
+  }
+
+  /* SECTION INTEGRANTE LAÇOOS */
+
+  .sobre-integrantelacoos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+  }
+
+  .containerIntegrantes {
+    display: flex;
+    margin: 5rem;
+  }
+
+  .conteudointegrantes {
+    width: 80vw;
+    grid-gap: 3rem;
+    color: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    margin: 0px;
+  }
+
+  .card .imageIntegrante {
+    margin-top: 0.5rem;
+    width: 13rem;
+  }
+
+  .caixaGarrafinha {
+    width: 40rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  /* SECTION SOBRE FOOTER LAÇOOS */
+
+  .imageQRCode {
+    width: 22rem;
+  }
+
+  /* SECTION SOBRE BODAS PARCEIROS */
+  .sobre-parceiros {
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .sobre-parceiros .tituloParceiros {
+    width: 35rem;
+    font-size: 6.5rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .sobre-parceiros .imgParceiros {
+    width: 15rem;
+    margin-left: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* SOBRE LAÇOOS */
+
+  .sobre-lacoos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .conteudo-sobre {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .conteudo-sobre .h1-conteudoSobre {
+    font-size: 7rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .conteudo-sobre .hr-conteudoSobre {
+    display: none;
+  }
+
+  .conteudo-sobre .p-conteudoSobre {
+    width: 30rem;
+    margin-left: 0rem;
+    font-size: 2.4rem;
+  }
+
+  /* SECTION SOBRE FONTS LAÇOOS */
+  .conteudo-fonts {
+    gap: 5rem;
+  }
+
+  .conteudo-fonts .buttons {
+    gap: 3rem;
+  }
+
+  .button .btn-sobreNos {
+    padding: 4rem 7rem;
+    font-size: 6rem;
+    border: none;
+  }
+
+  .btn .title {
+    font-size: 6rem;
+  }
+
+  .btn .p {
+    font-size: 4rem;
+  }
+
+  /* SECTION SOBRE IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    flex-direction: column;
+  }
+
+  /* SECTION SOBRE ID VISUAL LAÇOOS */
+  .sobre-idvisuallacoos {
+    height: 70rem;
+  }
+
+  .conteudo-id {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cores {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cores .imagesCores {
+    width: 26rem;
+  }
+
+  .conteudoicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons {
+    display: flex;
+    width: 100%;
+  }
+
+  .conteudoicons .imagesIcons {
+    width: 13rem;
+  }
+
+  .icons-msg {
+    width: 45rem;
+    margin: 0 auto;
+  }
+
+  .div-imageLacoos {
+    margin: 0 auto;
+  }
+
+  .imagesLacoos {
+    width: 30rem;
+  }
+
+  /* SECTION INTEGRANTE LAÇOOS */
+
+  .sobre-integrantelacoos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    margin-top: 3rem;
+  }
+
+  .containerIntegrantes {
+    display: flex;
+    margin: 5rem;
+  }
+
+  .conteudointegrantes {
+    display: flex;
+    justify-content: center;
+    grid-gap: 1rem;
+    width: 90vw;
+    color: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    margin: 0px;
+  }
+
+  .card .imageIntegrante {
+    margin-top: 0.5rem;
+    width: 20rem;
+  }
+
+  .caixaGarrafinha {
+    display: none;
+  }
+
+  /* SECTION SOBRE FOOTER LAÇOOS */
+
+  .sobre-footerlacoos {
+    width: 100%;
+    height: 100vh;
+    background: url(../../../img/sobre/footerbc.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+  }
+
+  .redesocial {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 34px;
+    left: 34px;
+    gap: 1rem;
+  }
+
+  .cardsocial {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .imageQRCode {
+    width: 30rem;
+  }
+
+  /* SECTION SOBRE BODAS PARCEIROS */
+  .sobre-parceiros {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .sobre-parceiros .tituloParceiros {
+    width: 50rem;
+    font-size: 7rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .sobre-parceiros .hr-conteudoParceiros {
+    display: none;
+  }
+
+  .sobre-parceiros .imgParceiros {
+    width: 15rem;
+    margin-left: 0rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .sobre-home .conteudo-logo {
+    width: 25rem;
+  }
+
+  .conteudo .p-sobre {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .img-detalhes {
+    position: absolute;
+    right: 0;
+    bottom: -14rem;
+  }
+
+  .detalhes {
+    width: 20rem;
+  }
+
+  /* SOBRE LAÇOOS */
+
+  .sobre-lacoos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .conteudo-sobre {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .conteudo-sobre .h1-conteudoSobre {
+    font-size: 7rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .conteudo-sobre .hr-conteudoSobre {
+    display: none;
+  }
+
+  .conteudo-sobre .p-conteudoSobre {
+    width: 30rem;
+    margin-left: 0rem;
+    font-size: 2.4rem;
+  }
+
+  /* SECTION SOBRE BODAS */
+
+  .sobre-bodas {
+    background: url(../../../img/sobre/bodas.png) no-repeat top center;
+    background-size: cover;
+  }
+
+  .conteudo-bodas {
+    top: 7rem;
+    left: 3.4rem;
+    gap: 1rem;
+  }
+
+  .tituloBodas {
+    width: 29rem;
+    font-size: 4.9rem;
+  }
+
+  .descBodas {
+    width: 35rem;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  /* SECTION SOBRE FONTS LAÇOOS */
+  .conteudo-fonts {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .conteudo-fonts .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button .btn-sobreNos {
+    padding: 3rem 6rem;
+    font-size: 3rem;
+    border: none;
+  }
+
+  .btn .title {
+    font-size: 5rem;
+  }
+
+  .btn .p {
+    font-size: 3.6rem;
+  }
+
+  /* SECTION SOBRE IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    flex-direction: column;
+  }
+
+  /* SECTION SOBRE ID VISUAL LAÇOOS */
+  .conteudo-id {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cores {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cores .imagesCores {
+    width: 22rem;
+  }
+
+  .conteudoicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons {
+    display: flex;
+    width: 100%;
+  }
+
+  .conteudoicons .imagesIcons {
+    width: 10rem;
+  }
+
+  .icons-msg {
+    width: 40rem;
+    margin: 0 auto;
+  }
+
+  .div-imageLacoos {
+    margin: 0 auto;
+  }
+
+  .imagesLacoos {
+    width: 30rem;
+  }
+
+  /* SECTION INTEGRANTE LAÇOOS */
+
+  .sobre-integrantelacoos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    margin-top: 3rem;
+  }
+
+  .containerIntegrantes {
+    display: flex;
+    margin: 5rem;
+  }
+
+  .conteudointegrantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1rem;
+    color: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.7rem;
+    border-radius: 17px;
+    margin: 0px;
+  }
+
+  .card .imageIntegrante {
+    margin-top: 0.5rem;
+    width: 15rem;
+  }
+
+  .caixaGarrafinha {
+    display: none;
+  }
+
+  /* SECTION SOBRE FOOTER LAÇOOS */
+
+  .sobre-footerlacoos {
+    width: 100%;
+    height: 75vh;
+    background: url(../../../img/sobre/footerbc.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+  }
+
+  .redesocial {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 34px;
+    left: 34px;
+    gap: 1rem;
+  }
+
+  .cardsocial {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .imageQRCode {
+    width: 20rem;
+  }
+
+  /* SECTION SOBRE BODAS PARCEIROS */
+  .sobre-parceiros {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .sobre-parceiros .tituloParceiros {
+    width: 100%;
+    font-size: 5.4rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .sobre-parceiros .hr-conteudoParceiros {
+    display: none;
+  }
+
+  .sobre-parceiros .imgParceiros {
+    width: 15rem;
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 480px) {
+  .sobre-home .conteudo-logo {
+    width: 25rem;
+  }
+
+  .conteudo .p-sobre {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .img-detalhes {
+    position: absolute;
+    right: 0;
+    bottom: -10rem;
+  }
+
+  .detalhes {
+    width: 15rem;
+  }
+
+  /* SOBRE LAÇOOS */
+
+  .sobre-lacoos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .conteudo-sobre {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .conteudo-sobre .h1-conteudoSobre {
+    font-size: 5rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .conteudo-sobre .hr-conteudoSobre {
+    display: none;
+  }
+
+  .conteudo-sobre .p-conteudoSobre {
+    width: 20rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+  }
+
+  /* SECTION SOBRE BODAS */
+
+  .sobre-bodas {
+    background: url(../../../img/sobre/bodas.png) no-repeat top center;
+    background-size: cover;
+  }
+
+  .conteudo-bodas {
+    top: 8.85rem;
+    left: 3.4rem;
+    gap: 1rem;
+  }
+
+  .tituloBodas {
+    width: 20rem;
+    font-size: 4.2rem;
+  }
+
+  .descBodas {
+    width: 28rem;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  /* SECTION SOBRE FONTS LAÇOOS */
+  .conteudo-fonts {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .conteudo-fonts .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button .btn-sobreNos {
+    padding: 3rem 6rem;
+    font-size: 3rem;
+    border: none;
+  }
+
+  .btn .title {
+    font-size: 5rem;
+  }
+
+  .btn .p {
+    font-size: 3.6rem;
+  }
+
+  /* SECTION SOBRE IMAGES LAÇOOS */
+  .sobre-imageslacoos .images {
+    flex-direction: column;
+  }
+
+  /* SECTION SOBRE ID VISUAL LAÇOOS */
+  .conteudo-id {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cores {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cores .imagesCores {
+    width: 15rem;
+  }
+
+  .conteudoicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icons {
+    display: flex;
+    width: 100%;
+  }
+
+  .conteudoicons .imagesIcons {
+    width: 8rem;
+  }
+
+  .icons-msg {
+    width: 30rem;
+    margin: 0 auto;
+  }
+
+  .div-imageLacoos {
+    margin: 0 auto;
+  }
+
+  .imagesLacoos {
+    width: 30rem;
+  }
+
+  /* SECTION INTEGRANTE LAÇOOS */
+
+  .sobre-integrantelacoos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+  }
+
+  .containerIntegrantes {
+    display: flex;
+    margin: 5rem;
+  }
+
+  .conteudointegrantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-gap: 1rem;
+    color: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+    margin: 0px;
+  }
+
+  .card .imageIntegrante {
+    margin-top: 0.5rem;
+    width: 17rem;
+  }
+
+  .caixaGarrafinha {
+    display: none;
+  }
+
+  /* SECTION SOBRE FOOTER LAÇOOS */
+
+  .sobre-footerlacoos {
+    width: 100%;
+    height: 75vh;
+    background: url(../../../img/sobre/footerbc.png);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+  }
+
+  .redesocial {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 34px;
+    left: 34px;
+    gap: 1rem;
+  }
+
+  .cardsocial {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .imageQRCode {
+    width: 20rem;
+  }
+
+  /* SECTION SOBRE BODAS PARCEIROS */
+  .sobre-parceiros {
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .sobre-parceiros .tituloParceiros {
+    width: 100%;
+    font-size: 5.4rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .sobre-parceiros .hr-conteudoParceiros {
+    display: none;
+  }
+
+  .sobre-parceiros .imgParceiros {
+    width: 15rem;
+    margin-left: 0rem;
+  }
+}

@@ -1,0 +1,889 @@
+/* CORES DO MODO DALTONISMO */
+.conteudo .header .titulo-perfil.DPTT,
+.inputs-form-perfil .form-user-e.DPTT, 
+.inputs-form-perfil .form-user-d.DPTT  {
+  color: #0000FF;
+}
+
+.conteudo .funcoes-perfil .foto-perfil.DPTT {
+  border: 1px solid #FFA500;
+}
+
+.container-form-perfil.DPTT,
+.form-perfil.DPTT,
+.inputs-form-perfil .form-user-e .input-perfil.DPTT, 
+.inputs-form-perfil .form-user-d .input-perfil.DPTT {
+  border: 1px solid #0000FF;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil.DPTT {
+  background-color: #0000FF;
+  border: 1px solid #0000FF;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil:hover.DPTT {
+  background-color: #fff;
+  color: #0000FF;
+}
+
+.container-perfil.DPTT {
+  background: url(../../../img/perfil/fundo-perfil-DPTT.svg) no-repeat center;
+  background-size: cover;
+}
+/*  */
+.conteudo .header .titulo-perfil.M,
+.inputs-form-perfil .form-user-e.M, 
+.inputs-form-perfil .form-user-d.M  {
+  color: #000081;
+}
+
+.conteudo .funcoes-perfil .foto-perfil.M {
+  border: 1px solid #00BFFF;
+}
+
+.container-form-perfil.M,
+.form-perfil.M,
+.inputs-form-perfil .form-user-e .input-perfil.M, 
+.inputs-form-perfil .form-user-d .input-perfil.M {
+  border: 1px solid #000081;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil.M {
+  background-color: #000081;
+  border: 1px solid #000081;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil:hover.M {
+  background-color: #fff;
+  color: #000081;
+}
+
+.container-perfil.M {
+  background: url(../../../img/perfil/fundo-perfil-M.svg) no-repeat center;
+  background-size: cover;
+}
+/*  */
+.conteudo .header .titulo-perfil.PD,
+.inputs-form-perfil .form-user-e.PD, 
+.inputs-form-perfil .form-user-d.PD  {
+  color: #FF69B4;
+}
+
+.conteudo .funcoes-perfil .foto-perfil.PD {
+  border: 1px solid #FF69B4;
+}
+
+.container-form-perfil.PD,
+.form-perfil.PD,
+.inputs-form-perfil .form-user-e .input-perfil.PD, 
+.inputs-form-perfil .form-user-d .input-perfil.PD {
+  border: 1px solid #FF69B4;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil.PD {
+  background-color: #FF69B4;
+  border: 1px solid #FF69B4;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil:hover.PD {
+  background-color: #fff;
+  color: #FF69B4;
+}
+
+.container-perfil.PD {
+  background: url(../../../img/perfil/fundo-perfil-PD.svg) no-repeat center;
+  background-size: cover;
+}
+/*  */
+.conteudo .header .titulo-perfil.A,
+.inputs-form-perfil .form-user-e.A, 
+.inputs-form-perfil .form-user-d.A  {
+  color: #000;
+}
+
+.conteudo .funcoes-perfil .foto-perfil.A {
+  border: 1px solid #000;
+}
+
+.container-form-perfil.A,
+.form-perfil.A,
+.inputs-form-perfil .form-user-e .input-perfil.A, 
+.inputs-form-perfil .form-user-d .input-perfil.A {
+  border: 1px solid #000;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil.A {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil:hover.A {
+  background-color: #fff;
+  color: #000;
+}
+
+.container-perfil.A {
+  background: url(../../../img/perfil/fundo-perfil-A.svg) no-repeat center;
+  background-size: cover;
+}
+
+/* COMEÇO DO CSS DA PÁGINA */
+.container-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url(../../../img/perfil/fundo-pagina-perfil.svg) no-repeat center;
+  background-size: cover;
+}
+
+.conteudo-container-perfil {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.conteudo .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.conteudo .header .logo {
+  width: 100%;
+  display: flex;
+}
+
+.conteudo .header .titulo-perfil {
+  font-size: 2rem;
+  color: #658955;
+}
+
+.conteudo .funcoes-perfil {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.conteudo .funcoes-perfil .foto-perfil {
+  border: 2px solid #658955;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 20rem;
+}
+
+.conteudo .funcoes-perfil .funcoes .nome-usuario {
+  font-size: 3rem;
+}
+
+.conteudo .funcoes-perfil .funcoes .lista-perfil,
+.conteudo .funcoes-perfil .funcoes .btn {
+  font-weight: 500;
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: none;
+  color: #000;
+}
+
+.conteudo .funcoes-perfil .funcoes a:hover,
+.conteudo .funcoes-perfil .funcoes .btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container-form-perfil {
+  background-color: #fff;
+  border: 1px solid #658955;
+  border-radius: 3.6rem;
+  /* margin-bottom: 2rem; */
+}
+
+.container-form-perfil .form-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs-form-perfil {
+  display: flex;
+  gap: 6rem;
+}
+
+.inputs-form-perfil .form-user-e,
+.inputs-form-perfil .form-user-d {
+  display: flex;
+  flex-direction: column;
+  color: #658955;
+  gap: 1.5rem;
+}
+
+.inputs-form-perfil .form-user-e .input-perfil,
+.inputs-form-perfil .form-user-d .input-perfil {
+  border: 1px solid #658955;
+  border-radius: 5rem;
+  height: 4.5rem;
+  padding: 2rem 2.4rem;
+  margin-top: 1rem;
+}
+
+.inputs-form-perfil .form-user-e .cel-tel {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.inputs-form-perfil .form-user-e .grupo,
+.inputs-form-perfil .form-user-d .grupo {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs-form-perfil .form-user-d {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-perfil {
+  border: 1px solid #658955;
+  padding: 3.3rem 7.5rem;
+  margin: 2rem;
+  border-radius: 2.2rem;
+}
+
+.form-perfil .btns-form-perfil {
+  margin-top: 6.1rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil {
+  font-size: 2rem;
+  font-weight: 400;
+  background-color: #658955;
+  color: #fff;
+  border: none;
+  padding: 1.1rem 2.2rem;
+  border-radius: 3.6rem;
+  border: 1px solid #658955;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.container-form-perfil .btns-form-perfil .btn-perfil:hover {
+  background-color: #fff;
+  color: #658955;
+}
+
+@media (min-width: 1920px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 10rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 4rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 15rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 2.2rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .container-form-perfil {
+    border-radius: 2rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .inputs-form-perfil .form-user-d {
+    width: auto;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .form-perfil {
+    padding: 4rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 10rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 4rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 15rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 2.2rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .container-form-perfil {
+    border-radius: 2rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .inputs-form-perfil .form-user-d {
+    width: auto;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .form-perfil {
+    padding: 4rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 10rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 4rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 12.5rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 2.2rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .container-form-perfil {
+    border-radius: 2rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .inputs-form-perfil .form-user-d {
+    width: auto;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .form-perfil {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 6rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 2.5rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 10rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 2.2rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  .container-form-perfil {
+    border-radius: 2rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .inputs-form-perfil .form-user-d {
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 70vw;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .form-perfil {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 1.6rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 6rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 2.5rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 8.5rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .container-form-perfil {
+    border-radius: 2rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .inputs-form-perfil .form-user-d {
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 70vw;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+  }
+
+  .form-perfil {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 1.6rem;
+  }
+}
+@media (max-width: 480px) {
+  .conteudo .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .conteudo .header .logo-perfil {
+    width: 6rem;
+    display: flex;
+  }
+
+  .conteudo .header .titulo-perfil {
+    font-size: 2rem;
+  }
+
+  .conteudo .funcoes-perfil {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .conteudo .funcoes-perfil .foto-perfil {
+    width: 7.5rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .nome-usuario {
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  .conteudo .funcoes-perfil .funcoes .lista-perfil,
+  .conteudo .funcoes-perfil .funcoes .btn {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .conteudo .funcoes-perfil .funcoes a:hover,
+  .conteudo .funcoes-perfil .funcoes .btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .container-form-perfil {
+    border-radius: 1rem;
+    overflow-y: auto;
+    max-height: 33rem;
+  }
+
+  .inputs-form-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .inputs-form-perfil .form-user-e,
+  .inputs-form-perfil .form-user-d {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .input-perfil,
+  .inputs-form-perfil .form-user-d .input-perfil {
+    border-radius: 1.5rem;
+    height: 4.5rem;
+    width: 100%;
+    padding: 2rem 2.4rem;
+    margin-top: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .cel-tel {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .inputs-form-perfil .form-user-e .grupo,
+  .inputs-form-perfil .form-user-d .grupo {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .form-perfil .btns-form-perfil {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .form-perfil {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+  }
+
+  .container-form-perfil .btns-form-perfil .btn-perfil {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 1.6rem;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .container-form-perfil {
+    border-radius: 1rem;
+    overflow-y: auto;
+    max-height: 30rem;
+  }
+} */
